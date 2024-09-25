@@ -21,7 +21,35 @@
         "ue": [ "4", "5" ], 
         "path": "Classes/Subsystems",
         "meta": { "header": "UWorldSubsystem.h", "source": "UWorldSubsystem.cpp" }
-      }  
+      },
+      {
+        "label": "UGameInstanceSubsystem", 
+        "desc": "Base class for auto instanced and initialized systems that share the lifetime of the game instance",
+        "ue": [ "4", "5" ], 
+        "path": "Classes/Subsystems",
+        "meta": { "header": "UGameInstanceSubsystem.h", "source": "UGameInstanceSubsystem.cpp" }
+      },
+      {
+        "label": "UEngineSubsystem", 
+        "desc": "Base class for auto instanced and initialized systems that share the lifetime of the Engine",
+        "ue": [ "4", "5" ], 
+        "path": "Classes/Subsystems",
+        "meta": { "header": "UEngineSubsystem.h", "source": "UEngineSubsystem.cpp" }
+      },
+      {
+        "label": "UEditorSubsystem", 
+        "desc": "Base class for auto instanced and initialized systems that share the lifetime of the Editor",
+        "ue": [ "4", "5" ], 
+        "path": "Classes/Subsystems",
+        "meta": { "header": "UEditorSubsystem.h", "source": "UEditorSubsystem.cpp" }
+      },
+      {
+        "label": "ULocalPlayerSubsystem", 
+        "desc": "Base class for auto instanced and initialized subsystem that share the lifetime of local players",
+        "ue": [ "4", "5" ], 
+        "path": "Classes/Subsystems",
+        "meta": { "header": "ULocalPlayerSubsystem.h", "source": "ULocalPlayerSubsystem.cpp" }
+      }
     ]
   }
 }
