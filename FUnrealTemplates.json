@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+
+  "templates": {
+    "plugins" : [
+
+    ],
+
+    "plugin_modules" : [
+
+    ],
+
+    "game_modules" : [
+
+    ],
+
+    "classes": [
+      {
+        "label": "UWorldSubsystem", 
+        "desc": "Base class for auto instanced and initialized systems that share the lifetime of a UWorld",
+        "ue": [ "4", "5" ], 
+        "path": "Classes/Subsystems",
+        "meta": { "header": "UWorldSubsystem.h", "source": "UWorldSubsystem.cpp" }
+      }  
+    ]
+  }
+}
