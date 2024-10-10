@@ -49,6 +49,13 @@
         "ue": [ "4", "5" ], 
         "path": "Classes/Subsystems",
         "meta": { "header": "ULocalPlayerSubsystem.h", "source": "ULocalPlayerSubsystem.cpp" }
+      },
+      {
+        "label": "UCharacterMovementComponent", 
+        "desc": "The character movement component is an Actor Component that provides an encapsulated movement system with common modes of movement for humanoid characters, including walking, falling, swimming, and flying",
+        "ue": [ "4", "5" ], 
+        "path": "Classes/Character",
+        "meta": { "header": "UCharacterMovementComponent.h", "source": "UCharacterMovementComponent.cpp" }
       }
     ]
   }
