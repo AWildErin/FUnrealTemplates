@@ -56,6 +56,13 @@
         "ue": [ "4", "5" ], 
         "path": "Classes/Character",
         "meta": { "header": "UCharacterMovementComponent.h", "source": "UCharacterMovementComponent.cpp" }
+      },
+      {
+        "label": "UGameInstance", 
+        "desc": "High-level manager object for an instance of the running game",
+        "ue": [ "4", "5" ], 
+        "path": "Classes/Engine",
+        "meta": { "header": "UGameInstance.h", "source": "UGameInstance.cpp" }
       }
     ]
   }
