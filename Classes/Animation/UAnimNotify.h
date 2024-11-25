@@ -14,7 +14,7 @@ class @{TPL_MODULE_API} U@{TPL_CLASS_NAME} : public UAnimNotify
 	GENERATED_BODY()
 
 public:
-	// Begin UAnimNotify interface
+	// Begin UAnimNotify Interface
 	virtual void Notify(USkeletalMeshComponent* MeshComp, UAnimSequenceBase* Animation, const FAnimNotifyEventReference& EventReference) override;
-	// End UAnimNotify interface
+	// End UAnimNotify Interface
 };
