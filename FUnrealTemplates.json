@@ -63,6 +63,13 @@
         "ue": [ "4", "5" ], 
         "path": "Classes/Engine",
         "meta": { "header": "UGameInstance.h", "source": "UGameInstance.cpp" }
+      },
+      {
+        "label": "UAnimInstance", 
+        "desc": "",
+        "ue": [ "4", "5" ], 
+        "path": "Classes/Animation",
+        "meta": { "header": "UAnimInstance.h", "source": "UAnimInstance.cpp" }
       }
     ]
   }
