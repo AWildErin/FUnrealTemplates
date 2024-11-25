@@ -1,4 +1,4 @@
-#include "@{TPL_CLASS_NAME}.h"
+#include "@{TPL_CLASS_RELPATH}@{TPL_CLASS_NAME}.h"
 
 U@{TPL_CLASS_NAME}::U@{TPL_CLASS_NAME}(const FObjectInitializer& ObjectInitializer)
 	: Super(ObjectInitializer)
