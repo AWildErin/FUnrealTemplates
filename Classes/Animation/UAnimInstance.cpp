@@ -2,9 +2,9 @@
 
 void U@{TPL_CLASS_NAME}::NativeInitializeAnimation()
 {
-	Super::NativeInitializeAnimation()
+	Super::NativeInitializeAnimation();
 }
 void U@{TPL_CLASS_NAME}::NativeUpdateAnimation(float DeltaSeconds) 
 {
-	Super::NativeUpdateAnimation(DeltaSeconds)
+	Super::NativeUpdateAnimation(DeltaSeconds);
 }
