@@ -91,7 +91,126 @@
         "ue": [ "5" ], 
         "path": "Classes/Player",
         "meta": { "header": "UCheatManager.h", "source": "UCheatManager.cpp" }
-      }
+      },
+			{
+				"label": "Empty", 
+        "desc": "An empty C++ class with a default contructor and destructor.",
+				"ue": [ "5" ], 
+        "path": "Classes",
+				"meta": { "header": "Empty.h", "source": "Empty.cpp" }
+			},
+			{
+				"label": "ACharacter", 
+        "desc": "A Character is a type of Pawn that includes the ability to walk around.",
+				"ue": [ "5" ], 
+        "path": "Classes/Actors",
+				"meta": { "header": "ACharacter.h", "source": "ACharacter.cpp" }
+			},
+			{
+				"label": "APawn", 
+        "desc": "A Pawn is an actor than can be 'possessed' and receive input from a controller.",
+				"ue": [ "5" ], 
+        "path": "Classes/Actors",
+				"meta": { "header": "APawn.h", "source": "APawn.cpp" }
+			},
+			{
+				"label": "AActor", 
+        "desc": "An Actor is an object that can be placed or spawned in the world.",
+				"ue": [ "5" ], 
+        "path": "Classes/Actors",
+				"meta": { "header": "AActor.h", "source": "AActor.cpp" }
+			},
+			{
+				"label": "UActorComponent", 
+        "desc": "An ActorComponent is a reusable component that can be added to any actor.",
+				"ue": [ "5" ], 
+        "path": "Classes/Components",
+				"meta": { "header": "UActorComponent.h", "source": "UActorComponent.cpp" }
+			},
+			{
+				"label": "USceneComponent", 
+        "desc": "A SceneComponent is a component that has a scene transform and can be attached to other scene components.",
+				"ue": [ "5" ], 
+        "path": "Classes/Components",
+				"meta": { "header": "USceneComponent.h", "source": "USceneComponent.cpp" }
+			},
+			{
+				"label": "APlayerCameraManager", 
+        "desc": "A PlayerCameraManager is responsible for managing the camera for a particular player.",
+				"ue": [ "5" ], 
+        "path": "Classes/Player",
+				"meta": { "header": "APlayerCameraManager.h", "source": "APlayerCameraManager.cpp" }
+			},
+			{
+				"label": "AGameModeBase", 
+        "desc": "A GameModeBase defines the game being played, its rules, scoring and other facets of the game type.",
+				"ue": [ "5" ], 
+        "path": "Classes/Engine",
+				"meta": { "header": "AGameModeBase.h", "source": "AGameModeBase.cpp" }
+			},
+			{
+				"label": "AWorldSettings", 
+        "desc": "A WorldSettings is an Actor containing all script accessible world properties.",
+				"ue": [ "5" ], 
+        "path": "Classes/Other",
+				"meta": { "header": "AWorldSettings.h", "source": "AWorldSettings.cpp" }
+			},
+			{
+				"label": "AHUD", 
+        "desc": "Base class of the heads-up display.",
+				"ue": [ "5" ], 
+        "path": "Classes/Engine",
+				"meta": { "header": "AHUD.h", "source": "AHUD.cpp" }
+			},
+			{
+				"label": "APlayerState", 
+        "desc": "A PlayerState is created for every player on a server (or in a standalone game).",
+				"ue": [ "5" ], 
+        "path": "Classes/Player",
+				"meta": { "header": "APlayerState.h", "source": "APlayerState.cpp" }
+			},
+			{
+				"label": "AGameStateBase", 
+        "desc": "A GameStateBase is a class that manages the game's global state and is spawned by GameModeBase.",
+				"ue": [ "5" ], 
+        "path": "Classes/Engine",
+				"meta": { "header": "AGameStateBase.h", "source": "AGameStateBase.cpp" }
+			},
+			{
+				"label": "UBlueprintFunctionLibrary", 
+        "desc": "This class is a base class for any function libraries exposed to blueprints.",
+				"ue": [ "5" ], 
+        "path": "Classes/Other",
+				"meta": { "header": "UBlueprintFunctionLibrary.h", "source": "UBlueprintFunctionLibrary.cpp" }
+			},
+			{
+				"label": "SSlateWidget", 
+        "desc": "A custom Slate widget, deriving from SCompoundWidget.",
+				"ue": [ "5" ], 
+        "path": "Classes/Other",
+				"meta": { "header": "SSlateWidget.h", "source": "SSlateWidget.cpp" }
+			},
+			{
+				"label": "USlateWidgetStyle", 
+        "desc": "A custom Slate widget style, deriving from FSlateWidgetStyle, along with its associated UObject wrapper class.",
+				"ue": [ "5" ], 
+        "path": "Classes/Other",
+				"meta": { "header": "USlateWidgetStyle.h", "source": "USlateWidgetStyle.cpp" }
+			},
+			{
+				"label": "UInterface", 
+        "desc": "A UObject Interface class, to be implemented by other UObject-based classes.",
+				"ue": [ "5" ], 
+        "path": "Classes/Engine",
+				"meta": { "header": "UInterface.h", "source": "UInterface.cpp" }
+			},
+			{
+				"label": "UObject", 
+        "desc": "A class who inherits from UObject.",
+				"ue": [ "5" ], 
+        "path": "Classes/Engine",
+				"meta": { "header": "UObject.h", "source": "UObject.cpp" }
+			}
     ]
   }
 }
